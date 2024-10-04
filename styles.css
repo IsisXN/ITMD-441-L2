@@ -65,6 +65,8 @@
   display: grid;
     grid-template-columns: 1fr 1fr; /* Two equal-width columns */
     grid-template-rows: 1fr 1fr 1fr; /* Three equal-height rows */
+    grid-auto-rows: 100px; /* Each row should be 100 pixels tall */
+    gap: 20px; /* Set a gap of 20 pixels between columns and rows */
 }
 
 /* end Grid Part 1 */
