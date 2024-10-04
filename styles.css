@@ -62,10 +62,10 @@
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-   display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    grid-auto-rows: 100px;
+   display: grid; /* Enables grid layout */
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
+    grid-auto-rows: 100px; /* Sets each row height to 100px */
+    gap: 20px; /* Adds a 20px gap between columns and rows */
 }
 
 /* end Grid Part 1 */
