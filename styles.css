@@ -62,10 +62,10 @@
 /* Grid Part 1 */
 
 #grid-section1 .grid {
-  display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-    grid-template-rows: 1fr 1fr 1fr; /* Three equal-height rows */
-    grid-auto-rows: 100px; /* Each row should be 100 pixels tall */
+   display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    grid-auto-rows: 100px;
 }
 
 /* end Grid Part 1 */
